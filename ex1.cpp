@@ -9,7 +9,7 @@ using namespace std;
 
 int num()
 {
-  static int x = 0;
+  static int x = 0; // переменная х статическая, поэтому выходя из области видимости, она не уничтожается.
   x += 1;
   return x;
 }
